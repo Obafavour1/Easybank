@@ -1,0 +1,308 @@
+@media (max-width: 949px){
+    nav{
+        width: 100%;
+        padding: 10px 4.5%;
+    }
+
+
+    /* .nav-list{
+        display: none;
+    } */
+
+    /* showcase section */
+    /* #showcase{
+        display: none;
+    } */
+
+    .showcase-text{
+        margin-top: 150px;
+        width: 40vw;
+    }
+
+
+    .showcase-img{
+        width: 40vw;
+        right: -200px;
+    }
+
+    .showcase-mockup{
+        margin-left: 0px;
+    }
+
+    .showcase-text h2{
+        font-size: 35px;
+        width: 100%;
+        line-height: 36px;
+    }
+
+    /* why section */
+    #why h3{
+        margin: auto;
+    }
+
+    .why-p{
+        width: 80%;
+    }
+
+    .why-card{
+        justify-content: space-around;
+        width: 100%;
+        margin: auto;
+    }
+
+    .article-card{
+        justify-content: space-around;
+        width: 100%;
+        margin: auto;
+    }
+}
+
+
+@media (max-width: 755px){
+    nav{
+        width: 100%;
+        position: fixed;
+    }
+
+    .nav-list, .nav-button{
+        display: none;
+    }
+
+    .hamburger{
+        height: 20px;
+        width: 25px;
+        display: block;
+        cursor: pointer;
+        position: absolute;
+        right: 30px;
+    }
+
+    .showcase-text h2{
+        font-size: 33px;
+        width: 100%;
+    }
+
+    #check{
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        right: 20px;
+        opacity: 0%;
+        z-index: 7;
+        cursor: pointer;
+    }
+
+    .close{
+        position: absolute;
+        right: 30px;
+        opacity: 0%;
+    }
+
+    #check:checked ~ .menu{
+        margin-left: 0;
+    }
+
+    #check:checked + .hamburger{
+        display: none;
+    }
+
+    #check:checked ~ .close{
+        opacity: 100%;
+    }
+
+    .menuu{
+        display: block;
+        position: fixed;
+    }
+}
+
+
+
+@media (max-width: 650px){
+    body{
+       font-size: 16px; 
+    }
+
+    nav .menu .menu-list li a{
+        padding: 10px 15px;
+        transition: color 0.2s ease;
+    }
+
+    nav .menu .menu-list li a:hover{
+        background: linear-gradient(hsl(136, 65%, 51%),hsl(192, 70%, 51%));
+        border-radius: 50px;
+        color: white;
+    }
+
+    nav{
+        /* padding-left: 40px; */
+        padding: 10px 10%;
+        width: 100%;
+        position: fixed;
+    }
+
+    .nav-list, .nav-button{
+        display: none;
+    }
+
+    .hamburger{
+        height: 20px;
+        width: 25px;
+        display: block;
+        cursor: pointer;
+    }
+
+    #check{
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        right: 20px;
+        opacity: 0%;
+        z-index: 7;
+        cursor: pointer;
+    }
+
+    .close{
+        position: absolute;
+        right: 30px;
+        opacity: 0%;
+    }
+
+    #check:checked ~ .menu{
+        margin-left: 0;
+    }
+
+    #check:checked + .hamburger{
+        display: none;
+    }
+
+    #check:checked ~ .close{
+        opacity: 100%;
+    }
+
+    #check:checked  #showcase{
+        background: linear-gradient(hsl(233, 26%, 24%), hsl(0, 0%, 100%) ) ;
+        opacity: 70%;
+    }
+
+
+
+    .menuu{
+        display: block;
+        position: fixed;
+    }
+
+
+    /* showcase section */
+    #showcase{
+        padding: 0;
+        width: 100%;
+        /* min-height: 100vh; */
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+        
+    }
+
+    .showcase-img{
+        background: url(/images/bg-intro-mobile.svg) no-repeat center center/cover;
+        width: 100%;
+        order: 1;
+        top: 0px;
+        right: 0;
+    }
+
+    .showcase-mockup{
+        margin-left: 10%;
+        width: 80%;
+        margin-top: -80px;
+    }
+
+    .showcase-text{
+        margin-top: -0px;
+        width: 80%;
+        order: 2;
+        text-align: center;
+        z-index: 3;
+        color: var(--dark-blue);
+    }
+
+    .a-call-action{
+        margin: 0 auto;
+    }
+
+    .showcase-text h2{
+        font-size: 36px;
+        width: 100%;
+    }
+
+    .showcase-text p{
+        text-align: justify;
+        width: 100%;
+        margin: 30px 0 40px 0;
+    }
+
+    /* why section */
+    #why{
+        padding-left: 0;
+        padding-top: 50px;
+        text-align: center;
+        min-height: 100vh;
+        margin-top: 100px;
+    }
+
+    .why-p{
+        width: 80%;
+        margin: 30px auto 0 auto;
+    }
+
+    .why-card{
+        justify-content: center;
+    }
+
+    #why h3{
+        font-size: 30px;
+    }
+
+    .card{
+        width: 80%;
+        margin: 30px auto 0 auto;
+    }
+
+    /* article section */
+    #article{
+        padding-top: 50px;
+        padding-left: 0;
+    }
+
+    #article h3{
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .a-card{
+        width: 60%;
+        margin: auto;
+        margin-top: 30px;
+    }
+
+    .a-card img{
+        width: 100%;
+    }
+
+    .a-card-text{
+        width: 80%;
+    }
+
+    /* footer section */
+    footer{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .last{
+        margin-top: 30px;
+    }
+}

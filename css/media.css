@@ -216,7 +216,7 @@
     .showcase-mockup{
         margin-left: 10%;
         width: 80%;
-        margin-top: -80px;
+        margin-top: -20px;
     }
 
     .showcase-text{
@@ -233,12 +233,13 @@
     }
 
     .showcase-text h2{
-        font-size: 36px;
+        font-size: 38px;
         width: 100%;
+        text-align: center;
     }
 
     .showcase-text p{
-        text-align: justify;
+        text-align: center;
         width: 100%;
         margin: 30px 0 40px 0;
     }
@@ -266,7 +267,7 @@
     }
 
     .card{
-        width: 80%;
+        width: 90%;
         margin: 30px auto 0 auto;
     }
 
@@ -282,7 +283,7 @@
     }
 
     .a-card{
-        width: 60%;
+        width: 80%;
         margin: auto;
         margin-top: 30px;
     }
@@ -304,5 +305,27 @@
 
     .last{
         margin-top: 30px;
+    }
+
+    #footer ul li{
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width: 400px){
+    #why h3{
+        font-size: 26px;
+    }
+
+    .showcase-text{
+        width: 90%;
+    }
+
+    .a-card-text{
+        width: 90%;
+    }
+
+    .a-card{
+        width: 90%;
     }
 }
